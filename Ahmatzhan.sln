@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32106.194
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibraryLogic", "LibraryLogic\LibraryLogic.csproj", "{BFFF6E59-1A2B-4713-929F-68E505BDED5D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BFFF6E59-1A2B-4713-929F-68E505BDED5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFFF6E59-1A2B-4713-929F-68E505BDED5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFFF6E59-1A2B-4713-929F-68E505BDED5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFFF6E59-1A2B-4713-929F-68E505BDED5D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F82CE693-E2C0-428C-9CAD-14E00B95FB8A}
+	EndGlobalSection
+EndGlobal
