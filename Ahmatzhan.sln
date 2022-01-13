@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.32106.194
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibraryLogic", "LibraryLogic\LibraryLogic.csproj", "{BFFF6E59-1A2B-4713-929F-68E505BDED5D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibraryLogicTests", "LibraryLogicTests\LibraryLogicTests.csproj", "{B3259D07-33FF-4D73-82A4-1413F4310475}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{BFFF6E59-1A2B-4713-929F-68E505BDED5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BFFF6E59-1A2B-4713-929F-68E505BDED5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BFFF6E59-1A2B-4713-929F-68E505BDED5D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3259D07-33FF-4D73-82A4-1413F4310475}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3259D07-33FF-4D73-82A4-1413F4310475}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3259D07-33FF-4D73-82A4-1413F4310475}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3259D07-33FF-4D73-82A4-1413F4310475}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

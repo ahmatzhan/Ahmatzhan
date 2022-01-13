@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace LibraryLogic
 {
-    class Teacher : UserLibrary
+    public class Teacher : UserLibrary
     {
         public Teacher() : base()
         {
