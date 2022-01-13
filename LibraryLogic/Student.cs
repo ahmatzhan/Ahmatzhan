@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace LibraryLogic
 {
-    class Student : UserLibrary
+    public class Student : UserLibrary
     {
         public Student():base()
         {
             Name = "Студент";
-            Rating = 10;
+            Rating = 11;
         }
         public Student(string name, int rating) : base(name,rating)
         {

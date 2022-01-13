@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace LibraryLogic
 {
-    class Aspirant : UserLibrary
+    public class Aspirant : UserLibrary
     {
         public Aspirant() : base()
         {
