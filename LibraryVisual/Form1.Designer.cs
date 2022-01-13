@@ -37,9 +37,14 @@ namespace LibraryVisual
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.label3 = new System.Windows.Forms.Label();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.BookName = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.UserBook = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.DateToBack = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Status = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.userBookComboBox = new System.Windows.Forms.ComboBox();
             this.label4 = new System.Windows.Forms.Label();
             this.RemoveBookButton = new System.Windows.Forms.Button();
+            this.UpdateBox = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -106,10 +111,35 @@ namespace LibraryVisual
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.BookName,
+            this.UserBook,
+            this.DateToBack,
+            this.Status});
             this.dataGridView1.Location = new System.Drawing.Point(452, 49);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(336, 371);
+            this.dataGridView1.Size = new System.Drawing.Size(443, 376);
             this.dataGridView1.TabIndex = 7;
+            // 
+            // BookName
+            // 
+            this.BookName.HeaderText = "Книга";
+            this.BookName.Name = "BookName";
+            // 
+            // UserBook
+            // 
+            this.UserBook.HeaderText = "Посетитель";
+            this.UserBook.Name = "UserBook";
+            // 
+            // DateToBack
+            // 
+            this.DateToBack.HeaderText = "Дата";
+            this.DateToBack.Name = "DateToBack";
+            // 
+            // Status
+            // 
+            this.Status.HeaderText = "Статус";
+            this.Status.Name = "Status";
             // 
             // userBookComboBox
             // 
@@ -138,11 +168,22 @@ namespace LibraryVisual
             this.RemoveBookButton.UseVisualStyleBackColor = true;
             this.RemoveBookButton.Click += new System.EventHandler(this.RemoveBookButton_Click);
             // 
+            // UpdateBox
+            // 
+            this.UpdateBox.Location = new System.Drawing.Point(820, 20);
+            this.UpdateBox.Name = "UpdateBox";
+            this.UpdateBox.Size = new System.Drawing.Size(75, 23);
+            this.UpdateBox.TabIndex = 12;
+            this.UpdateBox.Text = "Обновить";
+            this.UpdateBox.UseVisualStyleBackColor = true;
+            this.UpdateBox.Click += new System.EventHandler(this.UpdateBox_Click);
+            // 
             // LibraryForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(965, 462);
+            this.Controls.Add(this.UpdateBox);
             this.Controls.Add(this.RemoveBookButton);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.userBookComboBox);
@@ -175,6 +216,11 @@ namespace LibraryVisual
         private System.Windows.Forms.ComboBox userBookComboBox;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Button RemoveBookButton;
+        private System.Windows.Forms.DataGridViewTextBoxColumn BookName;
+        private System.Windows.Forms.DataGridViewTextBoxColumn UserBook;
+        private System.Windows.Forms.DataGridViewTextBoxColumn DateToBack;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Status;
+        private System.Windows.Forms.Button UpdateBox;
     }
 }
 
